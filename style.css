@@ -16,8 +16,17 @@ body{
     flex-direction: column;
 }
 
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12fr, 1fr) ;
+    width: 90vw;
+    margin: auto;
+}
+
 header{
     background-color: tomato;
+    margin-top: 70px;
 }
 
 main{
